@@ -17,7 +17,7 @@ public class OperasiMatematika_09 {
         // a = a/10 -> a /= 10
         // a = a%10 -> a %= 10
 
-        int c = 100
+        int c = 100;
 
         c += 10;
         System.out.println(c);
