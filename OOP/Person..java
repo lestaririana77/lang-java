@@ -12,6 +12,16 @@ class Person {
         address = paramAddress;
     };
 
+    // Constructor Overloading
+    Person(String paramName) {
+        // name = paramName; atau..
+        this(paramName, null); // disini pake this karena manggil dari constructor pertama..
+    };
+
+    Person() {
+        this(null);
+    };
+
     // Menambahkan Method ke Dalam Class
     void sayHello(String paramName) {
         System.out.println("Hello " + paramName + ", My Name is " + name);
