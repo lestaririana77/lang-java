@@ -2,6 +2,7 @@ class Person {
     String name;
     String address;
     final String country = "Indonesia";
+    // adex test
 
     // Constructor = method yg akan dipanggil pertama kali Object dibuat
     // Nama constructor harus sama dengan nama class
