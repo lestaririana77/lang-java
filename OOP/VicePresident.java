@@ -5,7 +5,7 @@ class VicePresident extends Manager { // class child (turunan)
     // }
 
     VicePresident(String name){
-        super(name, null); // kalau di class parent ada 2 parameter boleh akses salah satunya aja
+        super(name); // kalau di class parent ada 2 parameter boleh akses salah satunya aja
     }
 
     // Method Overriding = method yang mendeklarasiin ulang method yg terdapat di parent ke child
