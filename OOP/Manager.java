@@ -1,15 +1,16 @@
-class Manager { // class parent
+class Manager extends Employee{ // class parent => menjadi class child nya Employee
 
-    String name;
-
+    // String name; ==> ini di hapus, gak perlu karna name nya sudah ada di employee
     String company;
 
     Manager(String name) {
-        this.name = name; // ini constructor
+        // this.name = name; // ini constructor
+        super(name);
     }
 
     Manager(String name, String company) {
-        this.name = name;
+        // this.name = name;
+        super(name);
         this.company = company;
     }
 
